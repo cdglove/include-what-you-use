@@ -7,6 +7,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+// Tests that when we include a file that contains a using decl, that we are not
+// forced to include that file even if the decl is not used.
+
 #include "using_import-import.h"
 
 void use_symbol() {  

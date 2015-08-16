@@ -7,6 +7,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+// Tests that when we use a function overload through a using decl, that we
+// are only required to include the files that represent the overloads we've
+// actually used and not the entire overload set the the using decl
+// represents.
+
 #include <vector>
 #include <list>
 

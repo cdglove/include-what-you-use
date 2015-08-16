@@ -7,6 +7,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+// Tests that when we include a file that exports a symbol via a using decl
+// that we are required to include both the file with the original symbol and
+// the file with the using decl.
+
 #include "using_import-import.h"
 
 void use_symbol() {  
